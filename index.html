@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+  <style>
+    #a {
+      font-family: 'Dancing Script', cursive;
+    }
+  </style>
+  <title>Animate Website</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-white active fixed-top mb-1">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ">
+          <li class="nav-item">
+            <a class="nav-link active text-dark fs-3" aria-current="page" href="#">Computer - <span class="text-info">
+                Institute </span></a>
+          </li>
+        </ul>
+        <ul class="navbar-nav  mb-2 mb-lg-0 ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active text-info" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-dark" aria-current="page" href="#">Our Team</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Topics
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img style="height: 400px;width: 100%;"
+          src="https://media.istockphoto.com/id/1434386918/photo/a4-a5-magazine-brochure-3d-rendering-white-blank-mockup.webp?b=1&s=170667a&w=0&k=20&c=o7LLnLuz_hBav-o3LVCNtwXewKr116sAfPW2JZ0BxBI="
+          class="d-block w-100" alt="...">
+        <div class="carousel-caption d-md-block text-dark">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img style="height: 400px;width: 100%;"
+          src="https://media.istockphoto.com/id/654238972/photo/book-mock-up.jpg?s=612x612&w=0&k=20&c=pO5kIea22xj-AR5NFs1rcH_UNgIqJR0Vv1Oxu2YaAQM="
+          class="d-block w-100" alt="...">
+        <div class="carousel-caption d-md-block text-dark">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img style="height: 400px;width: 100%;"
+          src="https://media.istockphoto.com/id/1459258058/photo/template-empty-book-mockup-set-white-background.jpg?s=612x612&w=0&k=20&c=iMk57YnmS7aJhpn75oXaIlFNyvlfZWpTRxahCMnvKMw="
+          class="d-block w-100" alt="...">
+        <div class="carousel-caption d-md-block text-dark">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <br>
+  <br>
+  <div id="a" data-aos="flip-right" data-aos-duration="3000">
+    <h6 style="text-align: center;font-size: 35px;">About <span class="text-info">me</span></h6>
+    <div style="width: 300px;margin: auto;">
+      <hr>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6" data-aos="fade-right" data-aos-duration="2000">
+        <div style="width: 18rem;">
+          <div>
+            <h5 id="a" style="text-align: center; font-size: 24px;">What do you do <span class="text-info"> want to know
+                ?</span></h5>
+            <p>With supporting text below as a natural lead-in to additional content.Some of the button styles use a
+              relatively light foreground color, and should only be used on a dark background in order to have
+              sufficient contrast.</p>
+            <br>
+            <a href="#" class="btn btn-outline-secondary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div data-aos="fade-left" data-aos-duration="2000">
+          <img style="width: 400px;height: 400px; margin-top: 100px;"
+            src="https://media.istockphoto.com/id/585774436/photo/confident-young-businessman-holding-money-and-showing-ok-sign.jpg?s=612x612&w=0&k=20&c=D-zif8osQSdqB52RYLABc2IMdmhMUdYAz_uEPkRzqPA="
+            alt="">
+        </div>
+      </div>
+      <div data-aos="fade-up" data-aos-duration="2000">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                    aria-controls="panelsStayOpen-collapseOne">
+                    Accordion Item #1
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                  aria-labelledby="panelsStayOpen-headingOne">
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
+                    plugin adds the appropriate classes that we use to style each element. These classes control the
+                    overall appearance, as well as the showing and hiding via CSS transitions.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseTwo">
+                    Accordion Item #2
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingTwo">
+                  <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
+                    collapse plugin adds the appropriate classes that we use to style each element. These classes
+                    control the overall appearance, as well as the showing and hiding via CSS transitions.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseThree">
+                    Accordion Item #3
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingThree">
+                  <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                    collapse plugin adds the appropriate classes that we use to style each element. These classes
+                    control the overall appearance, as well as the showing and hiding via CSS transitions.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <div class="card mb-3">
+      <div class="card-body bg-dark" data-aos="flip-down" data-aos-duration="3000">
+        <div id="a">
+          <h6 style="text-align: center;font-size: 35px;color: white;margin-top:10px;">Our <span
+              class="text-info">Services</span></h6>
+          <div style="width: 300px;margin: auto;color: white;">
+            <hr>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <div class="container">
+      <div class="row justify-content-evenly" data-aos="fade-up" data-aos-duration="2000">
+        <div class="col-md-4 card" style="width: 18rem;">
+          <div class="card-body">
+            <i class="bi bi-twitter text-center fs-3"></i>
+            <h5 class="card-title">Web Development</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="col-md-4 card" style="width: 18rem;">
+          <div class="card-body">
+            <i class="bi bi-truck-front-fill text-center fs-3"></i>
+            <h5 class="card-title">Graphics Design</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="col-md-4 card" style="width: 18rem;">
+          <div class="card-body">
+            <i class="bi bi-virus text-center fs-3"></i>
+            <h5 class="card-title">PHP Development</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="row justify-content-evenly" data-aos="fade-down" data-aos-duration="2000">
+        <div class="col-md-4 card" style="width: 18rem;">
+          <div class="card-body">
+            <i class="bi bi-basket-fill text-center fs-3"></i>
+            <h5 class="card-title">.Net Development</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="col-md-4 card" style="width: 18rem;">
+          <div class="card-body">
+            <i class="bi bi-bing fs-3"></i>
+            <h5 class="card-title">Python Development</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="col-md-4 card" style="width: 18rem;">
+          <div class="card-body">
+            <i class="bi bi-box-fill fs-3"></i>
+            <h5 class="card-title">Development</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <div id="a" data-aos="zoom-in-down" data-aos-duration="3000">
+      <h6 style="text-align: center;font-size: 35px;;margin-top:10px;">Our <span class="text-info">Team</span></h6>
+      <div style="width: 300px;margin: auto;">
+        <hr>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="container justify-content-evenly" style="margin-left:40px ;">
+      <div class="row">
+        <div class="col-md-4" data-aos="zoom-out-right" data-aos-duration="3000">
+          <div class="card" style="width: 18rem; align-items: center;">
+            <img style="height: 200px;width: 200px; margin-top: 10px;"
+              src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c291cmNlJTIwbWVucyUyMGZhY2V8ZW58MHx8MHx8fDA%3D"
+              class="card-img-top img-thumbnail rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Andrew</h5>
+              <p class="card-text">Front End Developer</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="zoom-out-down" data-aos-duration="3000">
+          <div class="card" style="width: 18rem; align-items: center;">
+            <img style="height: 200px;width: 200px; margin-top: 10px;"
+              src="https://media.istockphoto.com/id/1386990094/photo/asian-businessman-with-confidence-and-arms-crossed.jpg?s=612x612&w=0&k=20&c=40iSjIjpIaPS0Hm-oBA52U1Y797oBaQdw3HyLH0c1Xc="
+              class="card-img-top img-thumbnail rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Kareen</h5>
+              <p class="card-text">Network Engineer</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="zoom-out-left" data-aos-duration="3000">
+          <div class="card" style="width: 18rem; align-items: center;">
+            <img style="height: 200px;width: 200px; margin-top: 10px;"
+              src="https://images.unsplash.com/photo-1464863979621-258859e62245?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHNvdXJjZSUyMG1lbiUyMGZhY2V8ZW58MHx8MHx8fDA%3D"
+              class="card-img-top img-thumbnail rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Mechal</h5>
+              <p class="card-text"> Web Development</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <div id="a" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+    <h6 style="text-align: center;font-size: 35px;;margin-top:10px;">Feel Free <span class="text-info">to connect</span>
+    </h6>
+    <div style="width: 300px;margin: auto;">
+      <hr>
+    </div>
+  </div>
+  <br>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6" data-aos="flip-left" data-aos-duration="3000">
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Password</label>
+            <input type="password" class="form-control" id="inputPassword4">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Address</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress2" class="form-label">Address 2</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+          </div>
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">City</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">State</label>
+            <select id="inputState" class="form-select">
+              <option selected>Choose...</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="col-md-2">
+            <label for="inputZip" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="inputZip">
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Check me out
+              </label>
+            </div>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">Sign in</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="col-md-6" data-aos="flip-right" data-aos-duration="2000">
+        <img style="margin-top: 30px; margin-left: 30px;"
+          src="https://media.istockphoto.com/id/684810246/photo/starting-a-new-blog-on-hiking.webp?s=170667a&w=0&k=20&c=KnmgYmWlpBeAxXJduzeGRUpaOykcK0JG7NPeHrv-kZw="
+          alt="">
+      </div>
+    </div>
+  </div>
+  <br>
+  <footer class="nav nav-pills flex-column flex-sm-row">
+    <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="#">Active</a>
+    <a class="flex-sm-fill text-sm-center nav-link" href="#">Longer nav link</a>
+    <a class="flex-sm-fill text-sm-center nav-link" href="#">Link</a>
+    <a class="flex-sm-fill text-sm-center nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
